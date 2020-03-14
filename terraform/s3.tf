@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "institutions" {
   bucket = "coronavirus.institutions.data"
-  acl= "private"
+  acl    = "private"
 
   tags = {
     Name        = "coronavirus.institutions.data"
